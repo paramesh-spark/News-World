@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "News World",
+    "slug": "newsbe",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/news.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/mainsc.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/news.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/news.png"
+    }
+  }
+}
